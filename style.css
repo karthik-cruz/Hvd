@@ -1,0 +1,64 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    align-items: center;
+    background-color: #282323;
+}
+
+#wrapper{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 150px;
+}
+h2{
+    text-align: center;
+}
+.progress-container{
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    padding: 5px;
+    border: 5px solid white;
+    /* background-color: #fff; */
+}
+
+#progress-bar{
+    width: 10%;
+    border-radius: 3px;
+    height: 100%;
+    background-color: whitesmoke;
+
+}
+
+
+#propose{
+    display: none;
+    width: 98%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+#propose img{
+    width: 80%;
+ 
+}
+
+span{
+    color: rgb(230, 71, 71);
+}
